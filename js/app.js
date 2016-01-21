@@ -23,7 +23,6 @@ $(function(){
           return {
               thumbnails : result.snippet.thumbnails.medium.url,
               title : result.snippet.title,
-              videoId : result.id.videoId,
               url: 'https://www.youtube.com/watch?v=' + result.id.videoId
           };
       });
