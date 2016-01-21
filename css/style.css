@@ -1,0 +1,10 @@
+body{
+	background: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 3em;
+	margin:0 0;
+}
+.row{
+	margin:0 0;
+}
