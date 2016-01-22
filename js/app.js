@@ -27,8 +27,7 @@ $(function(){
           };
       });
         var attachTemplate = function(){
-        var sourse = $('#youtube-template').html();
-        var template = Handlebars.compile(sourse);
+        var template = Handlebars.compile($('#youtube-template').html());
         container.append( template(results) );
         };
 
